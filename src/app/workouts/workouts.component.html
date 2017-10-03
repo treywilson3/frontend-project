@@ -1,0 +1,23 @@
+<!--<div class="card mb-3"-->
+  <!--*ngFor="let workout of workouts">-->
+  <!--<img class="card-img-top" src="{{workout.image}}" alt="Card image cap">-->
+  <!--<div class="card-body">-->
+    <!--<h4 class="card-title">{{workout.muscle}}</h4>-->
+    <!--<h4 class="card-title">{{workout.goal}}</h4>-->
+    <!--<p class="card-text">{{workout.directions}}</p>-->
+  <!--</div>-->
+<!--</div>-->
+<div class="row">
+  <div class="col-sm-6 col-md-4"
+       *ngFor="let workout of workouts" width="200" height="300">
+    <div class="thumbnail">
+      <img src="{{workout.image}}" alt="...">
+      <div class="caption">
+        <h3>Muscle Group: {{workout.muscle}}</h3>
+        <h5>Workout Goal: {{workout.goal}}</h5>
+        <p>{{workout.directions}}</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
