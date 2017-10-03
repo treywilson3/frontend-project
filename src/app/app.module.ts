@@ -12,6 +12,8 @@ import {ArticlesService} from "./articles/articles.service";
 import { WorkoutsComponent } from './workouts/workouts.component';
 import {WorkoutsService} from "./workouts/workouts.service";
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ToolsComponent } from './tools/tools.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     SidebarComponent,
     ArticlesComponent,
     WorkoutsComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ToolsComponent,
+    RecipesComponent
   ],
   imports: [
     BrowserModule,

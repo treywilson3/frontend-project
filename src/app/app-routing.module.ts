@@ -4,12 +4,16 @@ import {ArticlesComponent} from "./articles/articles.component";
 import {WorkoutsComponent} from "./workouts/workouts.component";
 import {SignupComponent} from "./signup/signup.component";
 import {LandingPageComponent} from "./landing-page/landing-page.component";
+import {ToolsComponent} from "./tools/tools.component";
+import {RecipesComponent} from "./recipes/recipes.component";
 
 const appRoutes: Routes = [
   { path: '', component: LandingPageComponent},
   { path: 'articles', component: ArticlesComponent},
   { path: 'workouts', component: WorkoutsComponent},
-  { path: 'sign-up', component: SignupComponent}
+  { path: 'sign-up', component: SignupComponent},
+  { path: 'tools', component: ToolsComponent},
+  { path: 'recipes', component: RecipesComponent}
   // { path: 'recipes', component: RecipesComponent, children: [
   //   { path: '', component: RecipeStartComponent },
   //   { path: 'new', component: RecipeEditComponent },
