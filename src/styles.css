@@ -1,12 +1,12 @@
 body {
-  background-color: #AAABB8;
+  background-color: #F5F5F5;
   padding-top: 90px;
 }
 body.sidebar {
   background-color: #f7f7f7;
 }
 .navbar-default {
-  background-color: #29648A;
+  background-color: #3b5998;
   width: 100%;
 }
 /* Title */
