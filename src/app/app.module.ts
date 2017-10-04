@@ -14,6 +14,12 @@ import {WorkoutsService} from "./workouts/workouts.service";
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ToolsComponent } from './tools/tools.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { ChestComponent } from './workouts/chest/chest.component';
+import { ShouldersComponent } from './workouts/shoulders/shoulders.component';
+import { BackComponent } from './workouts/back/back.component';
+import { LegsComponent } from './workouts/legs/legs.component';
+import { ArmsComponent } from './workouts/arms/arms.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +31,13 @@ import { RecipesComponent } from './recipes/recipes.component';
     WorkoutsComponent,
     LandingPageComponent,
     ToolsComponent,
-    RecipesComponent
+    RecipesComponent,
+    ChestComponent,
+    ShouldersComponent,
+    BackComponent,
+    LegsComponent,
+    ArmsComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
